@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="today">
+            <form class="weatherForm">
+                <input type="text" class="cityInput" placeholder="Enter City">
+                <button type="submit">Get Weather</button>
+            </form>
+            <div class="todaysWeather" style="display: none;">
+                <!--<p>Today's Weather</p>-->
+            </div>
+        </div>
+        <!-- 3 day forecast-->
+        <div class="nextDays" style="display: none;">
+            <div class="daysLater">
+                <!-- <p>Tomorrow's Weather</p> -->
+            </div>
+            <div class="daysLater">
+                <!-- <p>Day After's Weather</p> -->
+            </div>
+            <div class="daysLater">
+                <!-- <p>Days Later Weather</p> -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
